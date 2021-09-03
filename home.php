@@ -14,28 +14,8 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])){
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<!--<table>
-    <tr>
-        <th>Sno.</th>
-        <th>NAME</th>
-        <th>EMAIL ID</th>
-        <th>PASSWORD</th>
-        <th></th>
-    </tr>
-    <?php 
-        $sno = 1;
-        foreach($result as $r): ?>
-    <tr>
-        <td><?php echo $sno;?></td>
-        <td><?php echo $r['name'];?></td>
-        <td><?php echo $r['email'];?></td>
-        <td><?php echo $r['pass'];?></td>
-        <td><a href="delete.php?id=<?php echo $r['id'];?>">Delete</a></td>
-    </tr>
-    <?php 
-        $sno++;
-        endforeach;?>
-</table>--> <br>
+
+<br>
 <hr><br>
 
 </html>
