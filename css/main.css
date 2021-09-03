@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: left;
+}
+
+form{
+    background-color: khaki;
+    border-style: solid;
+}
+
+section label{
+    text-align: center;
+    max-width: 500px;
+    line-height: 3;
+    margin: 0 auto;
+    padding: 10px;
+}
